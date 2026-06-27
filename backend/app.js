@@ -14,7 +14,11 @@ const app = express();
 
 app.use(helmet());
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5175'],
+  origin: [
+    'http://localhost:5173',
+    'http://localhost:5175',
+    'https://optimus-automate-optimus-pm.vercel.app'  // ← yeh add karo
+  ],
   credentials: true
 }))
 app.use(express.json());
