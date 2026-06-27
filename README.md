@@ -272,16 +272,16 @@ GET    /api/users/search?q=      Search users
 ## Screenshots
 
 ### Login
-![Login](https://raw.githubusercontent.com/TheHaqHub/OptimusAutomate_OptimusPM/main/screenshots/login.png)
+![Login](./screenshots/login.png)
 
 ### Boards
-![Boards](https://raw.githubusercontent.com/TheHaqHub/OptimusAutomate_OptimusPM/main/screenshots/boards.png)
+![Boards](./screenshots/boards.png)
 
 ### Kanban Board
-![Board](https://raw.githubusercontent.com/TheHaqHub/OptimusAutomate_OptimusPM/main/screenshots/board.png)
+![Board](./screenshots/board.png)
 
 ### Card Details
-![Card](https://raw.githubusercontent.com/TheHaqHub/OptimusAutomate_OptimusPM/main/screenshots/card.png)
+![Card](./screenshots/card.png)
 
 ---
 
