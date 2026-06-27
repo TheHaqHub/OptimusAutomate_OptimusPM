@@ -4,6 +4,8 @@ import User from "../models/User.js";
 import { generateToken } from "../utils/jwt.js";
 
 export const register = asyncHandler(async (req, res) => {
+    console.log('Register attempt:', req.body.email)  // ← add karo
+
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     res.status(400);
